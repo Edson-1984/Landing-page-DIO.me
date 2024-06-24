@@ -27,7 +27,7 @@ margin: 0;
     
 }
 .banner-topo img{
-    
+    width: 100vw;
     background-image: linear-gradient(to top, black, #072e41, black);
     position: absolute;
     border-bottom:solid 1px #2c89d4;
@@ -217,4 +217,67 @@ span{
     font-family: 'raleway';
     width: auto;
     
+}
+/*RODAPE*/
+    .rodape{
+    position: absolute;
+    margin-top: 790px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, rgb(66, 66, 66));
+    text-align: center;
+    border-top: 1px solid #2c89d4;
+}
+    .rodape img{
+        margin-top: 30px;
+        width: 20%;
+    }
+
+@media screen and (max-width: 768px){
+   
+   .conteiner .banner-topo .banner{
+       width: 100vw;
+       height: 80%;
+    }
+    .conteiner .chamada{
+        width: 100%;
+      
+    }
+
+    .foto p{
+        margin: auto;
+    }
+     .final h2 { 
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .final img { 
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .final p { 
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .fechamento h2{
+        display: flex;
+        margin: auto;
+    }
+    .fechamento p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 80%;
+    }
+    .rodape{
+        margin-top: 630px;
+    }
 }
